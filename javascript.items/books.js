@@ -21,4 +21,4 @@ book1.isRead = true;
 const book2 = new Book("Tree", "William Wordsworth", 1);
 library.push(book2);
 
-console.log(library.forEach((book) => console.log(book.getInfo())));
+console.log(library.forEach((book) => console.log(book.getInfo)));
